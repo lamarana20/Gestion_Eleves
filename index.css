@@ -1,0 +1,27 @@
+.main {
+    text-align: center; /* Centrer le texte horizontalement */
+    margin: 0 auto; /* Ajuster automatiquement les marges gauche et droite */
+    max-width: 800px; /* DĆ©finir une largeur maximale pour limiter la largeur du contenu */
+}
+.welcome-message {
+    background-color: #f9f9f9;
+    padding-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.welcome-message p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-message p:last-child {
+    margin-bottom: 0;
+}
